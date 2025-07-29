@@ -1,0 +1,40 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  mix-blend-mode: normal;
+  color: white;
+}
+
+.logo {
+  font-size: 1.7rem;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: 0 0 16px #00ffb0, 0 0 2px #fff;
+}
+
+.progressBar {
+  width: 54%;
+  height: 14px;
+  background: rgba(0, 255, 176, 0.18);
+  border-radius: 7px;
+  box-shadow: 0 0 24px #00ffb0, 0 0 8px #00ffb0, 0 0 2px #fff;
+  overflow: hidden;
+  border: 2px solid #fff;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #00ffb0 0%, #00ffb0 100%);
+  box-shadow: 0 0 24px #00ffb0, 0 0 8px #00ffb0, 0 0 2px #fff;
+  border-radius: 7px;
+  transition: width 0.1s ease-out;
+}

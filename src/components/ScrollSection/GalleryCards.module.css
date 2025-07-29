@@ -1,0 +1,173 @@
+.galleryWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardsRow {
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(16, 21, 26, 0.95);
+  border-radius: 1.5em;
+  box-shadow: 0 0 32px #00ffb044, 0 0 8px #00ffb0;
+  border: 2px solid #00ffb0;
+  padding: 2.2em 2em 2em 2em;
+  min-width: 260px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s, border 0.2s, transform 0.2s;
+  position: relative;
+}
+.card:hover {
+  box-shadow: 0 0 64px #00ffb0, 0 0 24px #00ffb0;
+  border-color: #00ffb0;
+  transform: translateY(-6px) scale(1.03);
+}
+.cardName {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.5em;
+  text-shadow: 0 0 12px #00ffb0, 0 0 2px #fff;
+  text-align: center;
+}
+.cardRole {
+  font-size: 1.05rem;
+  color: #baffea;
+  margin-bottom: 0.7em;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 8px #00ffb0;
+  text-align: center;
+}
+.cardDesc {
+  font-size: 1.05rem;
+  color: #baffea;
+  margin-bottom: 1.5em;
+  text-align: center;
+  text-shadow: 0 0 8px #00ffb0;
+}
+.cardBtn {
+  background: #00ffb0;
+  color: #10151a;
+  border: none;
+  border-radius: 2em;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  padding: 0.5em 1.5em;
+  cursor: pointer;
+  box-shadow: 0 0 12px #00ffb0;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  margin-top: 0.5em;
+}
+.cardBtn:hover {
+  background: #fff;
+  color: #00ffb0;
+  box-shadow: 0 0 24px #00ffb0;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 20, 30, 0.96);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeInModal 0.3s;
+}
+
+@keyframes fadeInModal {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.modal {
+  border-radius: 1.2em;
+  max-width: 95vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.modalVideoBg {
+  position: absolute;
+  inset: 0;
+  background: rgba(10,20,30,0.55);
+  border-radius: 1.2em;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.modalVideo {
+  object-fit: cover;
+  width: 60vw;
+  max-height: 70vh;
+  border-radius: 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 18px;
+  right: 24px;
+  background: none;
+  border: none;
+  font-size: 2.1rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+  padding: 0.1em 0.3em;
+  border-radius: 50%;
+  transition: background 0.2s, color 0.2s;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeIcon {
+  width: 1.5em;
+  height: 1.5em;
+  stroke: #fff;
+  stroke-width: 2.2;
+  transition: stroke 0.2s, filter 0.2s;
+}
+
+@media (max-width: 900px) {
+  .cardsRow {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .modalVideo {
+    width: 90vw;
+    max-width: 98vw;
+    max-height: 40vh;
+  }
+  .closeBtn {
+    top: 8px;
+    right: 8px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 900px){
+  
+}
