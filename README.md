@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Front-End Developer Trial Task: Immersive Cinematic UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Objective
+Your goal is to showcase your ability to build a modern, non-standard, and interactive user interface. We want to see your problem-solving skills and your eye for detail in creating polished, engaging web experiences.
 
-## Available Scripts
+## The Task
+Reproduce the core user interface and scroll-driven experience of this cinematic website:
+**[https://wakanda-forever-master.dogstudio-dev.co/zerolimits](https://wakanda-forever-master.dogstudio-dev.co/zerolimits)**
 
-In the project directory, you can run:
+Your solution should be as close as possible to the original in terms of layout, typography, and animations.
 
-### `npm start`
+## The Creative Challenge (Replacing the 3D)
+The original site is built around a complex 3D animation. **You are not required to replicate the 3D model.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Instead, we want you to creatively replace it with a solution that maintains the site's immersive and cinematic feel. This is where you can demonstrate your problem-solving skills. Some ideas include:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*   A high-quality, looping video background (AI-generated or stock).
+*   An abstract generative animation using CSS, Canvas, or WebGL (e.g., particles, shaders).
+*   A clever parallax effect with 2D image layers.
+*   Any other creative solution you think fits the aesthetic.
 
-### `npm test`
+## Key Areas to Focus On
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*   **Scroll-driven Animations:** The synchronization of scrolling with element transitions (fade, move, scale) is the most critical aspect.
+*   **Layout & Typography:** Match the visual structure, font styles, and spacing.
+*   **Performance:** The experience should be smooth and responsive.
+*   **Overall Atmosphere:** Capture the "feel" of the original site.
 
-### `npm run build`
+## Technical Requirements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*   You are free to use any modern front-end framework (React, Vue, Svelte) or vanilla JavaScript.
+*   Animation libraries like GSAP, Framer Motion, or ScrollTrigger are encouraged.
+*   The code must be your own.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deliverables
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  **Source Code:** Commit all your final source code to this repository.
+2.  **Live Deployment:** Add the link to your live, deployed solution in the `report.md` file.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We are excited to see your interpretation and how you tackle the challenge.
