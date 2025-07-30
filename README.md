@@ -1,40 +1,39 @@
-# Front-End Developer Trial Task: Immersive Cinematic UI
+Zero Limits
 
-## Objective
-Your goal is to showcase your ability to build a modern, non-standard, and interactive user interface. We want to see your problem-solving skills and your eye for detail in creating polished, engaging web experiences.
+Zero Limits – это интерактивный одностраничный сайт с эффектами параллакса, плавными переходами и динамическими анимациями, вдохновленный стилем Wakanda Forever.
 
-## The Task
-Reproduce the core user interface and scroll-driven experience of this cinematic website:
-**[https://wakanda-forever-master.dogstudio-dev.co/zerolimits](https://wakanda-forever-master.dogstudio-dev.co/zerolimits)**
+🔗 Демо: https://zero-limits.vercel.app/
 
-Your solution should be as close as possible to the original in terms of layout, typography, and animations.
+✨ Особенности
+🌀 Параллакс-эффекты при скролле
 
-## The Creative Challenge (Replacing the 3D)
-The original site is built around a complex 3D animation. **You are not required to replicate the 3D model.**
+🎭 Плавные анимации и переходы между секциями
 
-Instead, we want you to creatively replace it with a solution that maintains the site's immersive and cinematic feel. This is where you can demonstrate your problem-solving skills. Some ideas include:
+📱 Адаптивный дизайн 
 
-*   A high-quality, looping video background (AI-generated or stock).
-*   An abstract generative animation using CSS, Canvas, or WebGL (e.g., particles, shaders).
-*   A clever parallax effect with 2D image layers.
-*   Any other creative solution you think fits the aesthetic.
+🖌️ Кастомные шейдер-эффекты 
 
-## Key Areas to Focus On
+⚡ Оптимизированная производительность
 
-*   **Scroll-driven Animations:** The synchronization of scrolling with element transitions (fade, move, scale) is the most critical aspect.
-*   **Layout & Typography:** Match the visual structure, font styles, and spacing.
-*   **Performance:** The experience should be smooth and responsive.
-*   **Overall Atmosphere:** Capture the "feel" of the original site.
+🛠️ Стек технологий
+Frontend: React 
 
-## Technical Requirements
+Анимации: Framer Motion / GSAP
 
-*   You are free to use any modern front-end framework (React, Vue, Svelte) or vanilla JavaScript.
-*   Animation libraries like GSAP, Framer Motion, or ScrollTrigger are encouraged.
-*   The code must be your own.
+Параллакс: React Spring 
 
-## Deliverables
+Стили: CSS 
 
-1.  **Source Code:** Commit all your final source code to this repository.
-2.  **Live Deployment:** Add the link to your live, deployed solution in the `report.md` file.
+Деплой: Vercel
 
-We are excited to see your interpretation and how you tackle the challenge.
+🎨 Дизайн-концепция
+Минималистичный черно-зелёный цветовой palette
+
+Кинематографичные переходы
+
+🚀 Как запустить локально
+bash
+git clone [your-repo-url]
+cd zero-limits
+npm install
+npm run dev
