@@ -33,7 +33,7 @@ Frontend: React
 
 🚀 Как запустить локально
 bash
-git clone [your-repo-url]
+git clone https://github.com/yankevych0210/Zero-Limits.git
 cd zero-limits
 npm install
 npm run dev
